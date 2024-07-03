@@ -1,8 +1,4 @@
-﻿using Stores.Sales.Backend.BusinessObjects.POCOEntities;
-using Stores.Sales.Backend.BusinessObjects.ValueObjects;
-using Stores.Sales.Entities.DTOs.CreateOrder;
-
-namespace Stores.Sales.Backend.BusinessObjects.Aggregates;
+﻿namespace Stores.Sales.Backend.BusinessObjects.Aggregates;
 
 public class OrderAggregate : Order
 {
