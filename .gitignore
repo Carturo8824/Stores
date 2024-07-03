@@ -1,2 +1,3 @@
 .vs/
- /Stores.Sales.Entities/obj
+/Stores.Sales.Entities/obj
+/Stores.Sales.Backend.BusinessObjects/obj
