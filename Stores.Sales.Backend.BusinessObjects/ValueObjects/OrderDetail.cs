@@ -1,4 +1,4 @@
-﻿}namespace Stores.Sales.Backend.BusinessObjects.ValueObjects;
+﻿namespace Stores.Sales.Backend.BusinessObjects.ValueObjects;
 
 public class OrderDetail(int productId, decimal unitPrice, short quantity)
 {
