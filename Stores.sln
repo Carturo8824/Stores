@@ -3,9 +3,39 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Enterprise Business Rules", "1. Enterprise Business Rules", "{0F92170F-F4A5-4288-9760-02DBB6AE501A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Application Business Rules", "2. Application Business Rules", "{4CCBEA16-AF65-4854-BE73-E58850763581}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Interface Adapters", "3. Interface Adapters", "{EDD618AB-8EA3-4DA9-9BF5-7517E97C80FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Frameworks And Drivers", "4. Frameworks And Drivers", "{41282537-7601-4227-B36E-D2AC21D75AC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stores.Sales.Entities", "Stores.Sales.Entities\Stores.Sales.Entities.csproj", "{DBEF8A62-1AE1-415E-99EE-E38354DD1953}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stores.Sales.Backend.BusinessObjects", "Stores.Sales.Backend.BusinessObjects\Stores.Sales.Backend.BusinessObjects.csproj", "{33934EC2-5CB0-442B-BEDE-0671A9267B0F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBEF8A62-1AE1-415E-99EE-E38354DD1953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBEF8A62-1AE1-415E-99EE-E38354DD1953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBEF8A62-1AE1-415E-99EE-E38354DD1953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBEF8A62-1AE1-415E-99EE-E38354DD1953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33934EC2-5CB0-442B-BEDE-0671A9267B0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33934EC2-5CB0-442B-BEDE-0671A9267B0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33934EC2-5CB0-442B-BEDE-0671A9267B0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33934EC2-5CB0-442B-BEDE-0671A9267B0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DBEF8A62-1AE1-415E-99EE-E38354DD1953} = {0F92170F-F4A5-4288-9760-02DBB6AE501A}
+		{33934EC2-5CB0-442B-BEDE-0671A9267B0F} = {4CCBEA16-AF65-4854-BE73-E58850763581}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EF56D285-F106-4DEC-8E76-00523AD08551}
