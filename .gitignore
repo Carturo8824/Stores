@@ -2,3 +2,4 @@
 /Stores.Sales.Entities/obj
 /Stores.Sales.Backend.BusinessObjects/obj
 /Stores.Sales.Backend.UseCases/obj
+/Stores.Sales.Backend.EFCore/obj/
