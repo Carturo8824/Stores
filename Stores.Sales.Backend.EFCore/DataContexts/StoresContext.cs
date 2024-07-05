@@ -17,6 +17,7 @@ DbContextOptionsBuilder optionsBuilder)
         optionsBuilder.UseNpgsql(
             DBOptions.Value.ConnectionString);
     }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.ApplyConfigurationsFromAssembly(
