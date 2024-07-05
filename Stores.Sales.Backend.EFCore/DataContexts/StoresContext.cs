@@ -17,9 +17,11 @@ DbContextOptionsBuilder optionsBuilder)
         optionsBuilder.UseNpgsql(
             DBOptions.Value.ConnectionString);
     }
+    public DbSet<Order> Orders { get; set; }
+    public DbSet<OrderDetail> OrderDetails { get; set; }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.ApplyConfigurationsFromAssembly(
-            Assembly.GetExecutingAssembly());
+        Assembly.GetExecutingAssembly());
     }
 }
