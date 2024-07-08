@@ -1,7 +1,4 @@
-﻿using Stores.Sales.Backend.EFCore.Options;
-using Stores.Sales.Backend.EFCore.Repositories;
-
-namespace Microsoft.Extensions.DependencyInjection;
+﻿namespace Microsoft.Extensions.DependencyInjection;
 public static class DependencyContainer
 {
     public static IServiceCollection AddRepositories(

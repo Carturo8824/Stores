@@ -6,3 +6,5 @@ global using System.Reflection;
 global using Stores.Sales.Backend.BusinessObjects.Aggregates;
 global using Stores.Sales.Backend.BusinessObjects.Interfaces.Repositories;
 global using Stores.Sales.Backend.EFCore.DataContexts;
+global using Stores.Sales.Backend.EFCore.Options;
+global using Stores.Sales.Backend.EFCore.Repositories;
