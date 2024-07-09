@@ -4,9 +4,11 @@
 /Stores.Sales.Backend.UseCases/obj/
 /Stores.Sales.Backend.EFCore/obj/
 /Stores.Sales.Backend.Presenters/obj/
+/Stores.Sales.Backend.Controllers/obj/
 /Stores.Sales.Backend.BusinessObjects/bin/
 /Stores.Sales.Backend.EFCore/Migrations/
 /Stores.Sales.Backend.EFCore/bin/
 /Stores.Sales.Backend.UseCases/bin/
 /Stores.Sales.Entities/bin/
 /Stores.Sales.Backend.Presenters/bin/
+/Stores.Sales.Backend.Controllers/bin/
