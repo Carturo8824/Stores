@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Stores.Sales.Backend.Controllers\Stores.Sales.Backend.Controllers.csproj" />
+    <ProjectReference Include="..\Stores.Sales.Backend.EFCore\Stores.Sales.Backend.EFCore.csproj" />
     <ProjectReference Include="..\Stores.Sales.Backend.Presenters\Stores.Sales.Backend.Presenters.csproj" />
     <ProjectReference Include="..\Stores.Sales.Backend.UseCases\Stores.Sales.Backend.UseCases.csproj" />
   </ItemGroup>
